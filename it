@@ -1,0 +1,19 @@
+let mks=[10,20,30];
+let it=mks[Symbol.iterator]();
+console.log(it.next());
+console.log(it.next());
+console.log(it.next());
+console.log(it.next());
+console.log(it.next());
+function* func(){
+    console.log("1.code after first execution is");
+    yield 100;
+    console.log("2.code after second execution");
+    yield 200;
+    console.log("3.Code after second execution");
+}
+const gene=func();
+console.log(gene.next());
+console.log(gene.next());
+console.log(gene.next());
+console.log(gene.next());
