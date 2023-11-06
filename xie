@@ -10,6 +10,18 @@ font-family:Aerial;
 margin:20px;}
 h1{color:RED}
 p{color:Black}
+table{
+    border-collapse:collapse ;
+    margin: 20px auto;
+    width: 80% ;
+}
+table,th,td{
+    border:1px solid #000;
+}
+th, td{
+padding: 10px;
+text-align: left;
+}
 ul{list-style-type:disc;}
 </style>
 </head>
@@ -18,12 +30,29 @@ ul{list-style-type:disc;}
 <p>This is the static website</p>
 <h2>Links</h2>
 <p>links are below</p>
-<li><a herf="https://www.w3schools.com/TAGs/tag_ol.asp"</a></li>
+<li><a herf="https://www.w3schools.com/TAGs/tag_ol.asp"></a></li>
 <li><a herf="https://www.xavier.ac.in/"></a></li>
 <h2>Images</h2>
 <p>images are listed down here</p>
 <img src="C:\Users\shreya jadhav\Pictures\B612_20180608_122440.jpg" alt="Img1" width="300">
-<h2><video width="400"controls</h2>
+<h2><video width="400"controls></video></h2>
 <source src="C:\Users\shreya jadhav\Videos\5_6055629808316973197.mkv" tpe="video/mp4">
+<table>
+    <tr>
+      <th>Company</th>
+      <th>Contact</th>
+      <th>Country</th>
+    </tr>
+    <tr>
+      <td>Alfreds Futterkiste</td>
+      <td>Maria Anders</td>
+      <td>Germany</td>
+    </tr>
+    <tr>
+      <td>Centro comercial Moctezuma</td>
+      <td>Francisco Chang</td>
+      <td>Mexico</td>
+    </tr>
+  </table>
 </body>
 </html>
