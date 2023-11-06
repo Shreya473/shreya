@@ -22,3 +22,9 @@ writerStream.on('finish',function(){
 writerStream.on('error',function(err){
     console.log(err.stack);
 });
+
+//var fs = require ('fs');
+var readStream=fs.createReadStream('input.txt');
+var writeStream=fs.createWriteStream('output.txt');
+readStream.pipe(writeStream);
+console.log("Pipelining Done");
